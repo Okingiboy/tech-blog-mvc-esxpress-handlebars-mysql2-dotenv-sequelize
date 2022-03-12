@@ -51,9 +51,14 @@ A CMS-style blog site about tech. Can publish articles, blog posts, and thoughts
 - Dotenv
 - Heroku
 
+### Application Screenshot
+
+![images](images/tech-blog-mvc-james.PNG)
+  
+
 ## Link
 
-[GitHub Link](https://github.com/10-kp/tech-blog)
+[GitHub Link](https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize)
 
 [Heroku Link](https://nameless-ridge-55768.herokuapp.com/)
 
