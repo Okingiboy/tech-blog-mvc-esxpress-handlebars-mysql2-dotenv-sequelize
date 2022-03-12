@@ -1,7 +1,7 @@
 {
-  "name": "tech-blog",
+  "name": "tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize",
   "version": "1.0.0",
-  "description": "A tech blog",
+  "description": "A tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/10-kp/tech-blog.git"
+    "url": "git+https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize.git"
   },
   "author": "Kp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/10-kp/tech-blog/issues"
+    "url": "https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize/issues"
   },
-  "homepage": "https://github.com/10-kp/tech-blog#readme",
+  "homepage": "https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",

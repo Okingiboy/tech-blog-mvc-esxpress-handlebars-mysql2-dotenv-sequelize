@@ -1,4 +1,4 @@
-# tech-blog
+# tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize
 
 [![](https://img.shields.io/badge/javascript-68%25-yellow)]()
 [![](https://img.shields.io/badge/CSS-19%25-blue)]()
