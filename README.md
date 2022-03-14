@@ -53,7 +53,7 @@ A CMS-style blog site about tech. Can publish articles, blog posts, and thoughts
 
 ### Application Screenshot
 
-![images](images/tech-blog-mvc-james.PNG)
+![images](db/images/tech-blog-mvc-james.PNG)
   
 
 ## Link
