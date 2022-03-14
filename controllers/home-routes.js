@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
 
 // Render Homepage
+// http://localhost:3001/
 router.get('/', async (req, res) => {
   try {
     // Query configuration

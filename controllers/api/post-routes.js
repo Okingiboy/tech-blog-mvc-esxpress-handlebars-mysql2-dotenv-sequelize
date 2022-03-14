@@ -6,7 +6,7 @@ const withAuth = require('../../utils/auth');
 // Routes
 
 // Get all posts
-
+// http://localhost:3001/api/posts/
 router.get('/', async (req, res) => {
   try {
     const postData = await Post.findAll({
