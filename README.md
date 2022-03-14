@@ -60,7 +60,7 @@ A CMS-style blog site about tech. Can publish articles, blog posts, and thoughts
 
 [GitHub Link](https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize)
 
-[Heroku Link](https://dashboard.heroku.com/pipelines/e9ff3119-4da1-42b6-a980-5e7c1dc0b958)
+[Heroku Link](https://dashboard.heroku.com/apps/tech-blog-mvc-james)
 
 
 ## License
