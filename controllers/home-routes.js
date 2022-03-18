@@ -7,44 +7,47 @@ router.get('/', async (req, res) => {
   try {
     // Query configuration
     // From the Post table, include the following
-    const postData = await Post.findAll({
-      attributes: ['id', 'title', 'content', 'created_at'],
-      include: [
-        {
-          model: Comment,
-          attributes: [
-            'id',
-            'comment_text',
-            'post_id',
-            'user_id',
-            'created_at',
-          ],
-          // Order the posts from most recent to least
-          order: [['created_at', 'DESC']],
+    // const postData = await Post.findAll({
+    //   attributes: ['id', 'title', 'content', 'created_at'],
+    //   include: [
+    //     {
+    //       model: Comment,
+    //       attributes: [
+    //         'id',
+    //         'comment_text',
+    //         'post_id',
+    //         'user_id',
+    //         'created_at',
+    //       ],
+    //       // Order the posts from most recent to least
+    //       order: [['created_at', 'DESC']],
 
-          // From the User table, include the post creator's user name
-          // From the Comment table, include all comments
-          include: { model: User, attributes: ['username'] },
-        },
-        {
-          model: Comment,
-          attributes: [
-            'id',
-            'comment_text',
-            'post_id',
-            'user_id',
-            'created_at',
-          ],
-          include: {
-            model: User,
-            attributes: ['username'],
-          },
-        },
-      ],
-    });
+    //       // From the User table, include the post creator's user name
+    //       // From the Comment table, include all comments
+    //       include: { model: User, attributes: ['username'] },
+    //     },
+    //     {
+    //       model: Comment,
+    //       attributes: [
+    //         'id',
+    //         'comment_text',
+    //         'post_id',
+    //         'user_id',
+    //         'created_at',
+    //       ],
+    //       include: {
+    //         model: User,
+    //         attributes: ['username'],
+    //       },
+    //     },
+    //   ],
+    // });
 
     // Serialize data so the template can read it
     // Create an array for the posts
+    const postData = await Post.findAll({
+      include: [User],
+    })
     const posts = postData.map((post) => post.get({ plain: true }));
 
     // Pass the posts into the homepage template
