@@ -60,7 +60,7 @@ A CMS-style blog site about tech. Can publish articles, blog posts, and thoughts
 
 [GitHub Link](https://github.com/Okingiboy/tech-blog-mvc-esxpress-handlebars-mysql2-dotenv-sequelize)
 
-[Heroku Link](https://dashboard.heroku.com/apps/tech-blog-mvc-james)
+[Heroku Link](https://thawing-tundra-57664.herokuapp.com/)
 
 
 ## License
